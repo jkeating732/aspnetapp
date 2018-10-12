@@ -9,4 +9,5 @@ phases:
   build:
     commands:
      - msbuild 
-
+     - dir
+     - pwd
