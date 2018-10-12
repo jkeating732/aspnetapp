@@ -9,5 +9,8 @@ phases:
   build:
     commands:
      - msbuild 
-     - dir
-     - pwd 
+     - dir aspnetapp
+artifacts:
+  files:
+    - aspnetapp/**/*
+  discard-paths: yes 
